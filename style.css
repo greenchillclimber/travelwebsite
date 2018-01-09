@@ -20,12 +20,13 @@
     width:220px;
     background:silver;
     position:absolute;
-}
-
-.navigation{
-
 
 }
+
+ul li{
+    list-style-type:none;
+}
+
 
 .names{
     color:rgb(60,179,113);
