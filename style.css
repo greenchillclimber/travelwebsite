@@ -18,20 +18,38 @@
     bottom:0px;
     left:0px;
     width:220px;
-    background:silver;
+    background:#333;
     position:absolute;
 
 }
 
-ul li{
-    list-style-type:none;
+ul{
+    margin-top:54px;
+    margin-right:30px;
+
 }
 
+h3 {
+    margin-top:15px;
+    margin-bottom:10px;
+    margin-right:0px;
+    margin-left:10px;
+    color:rgb(60,179,113);
+    text-align:center;
+    font-size:24px;
+}
+
+li{
+    list-style-type:none;
+    background:rgb(60,179,113);
+    padding:5px 0px 15px 10px;
+
+}
 
 .names{
     color:rgb(60,179,113);
     text-align:center;
-    font-size:15px;
+    font-size:25px;
     font-family:cursive;
     font-style:italic;
     margin-bottom:10px;
@@ -47,13 +65,14 @@ ul li{
     right:0px;
     position:absolute;
     overflow-y:auto;
+    background-color:#333;
 
 }
 
 .heading{
     color:rgb(60, 179, 113);
     text-align:center;
-    font-size:50px;
+    font-size:40px;
     font-family:cursive;
     font-style:italic;
     margin-bottom:20px;
