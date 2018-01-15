@@ -20,7 +20,18 @@
     width:220px;
     background:#333;
     position:absolute;
+}
 
+a img{
+    width:100px;
+    height:140px;
+    
+}
+
+
+
+a {
+    color:black;
 }
 
 ul{
@@ -31,12 +42,56 @@ ul{
 
 h3 {
     margin-top:15px;
-    margin-bottom:10px;
+    margin-bottom:-10px;
     margin-right:0px;
     margin-left:10px;
     color:rgb(60,179,113);
     text-align:center;
     font-size:24px;
+}
+
+
+h1{
+    color:rgb(60,179,113);
+    font-family:times;
+    font-style:italic;
+    padding:20px 0px 0px 100px;
+}
+
+div.row{
+    display:inline-block;
+
+
+}
+
+.jack{
+    padding: 20px 50px 0px 5px;
+    display:inline-block;
+    float:left;
+}
+
+.names{
+    padding:60px 0px 0px 130px;
+    display:inline-block;
+    float:left;
+    font-size:100px;
+}
+
+.owners{
+    padding:20px 50px 0px 200px;
+    display:inline-block;
+    float:left;
+}
+
+
+
+p  {
+    border:2px black;
+    padding-color:#333;
+    padding:0px 0px 0px 0px;
+    color:white;
+    background-color:rgb(60,179,113);
+    border-radius:5px;
 }
 
 li{
@@ -55,9 +110,9 @@ li{
     margin-bottom:10px;
     margin-top:-20px;
 
-
 }
 
+/*for content styling*/
 .content{
     top:0px;
     bottom:0px;
@@ -66,6 +121,7 @@ li{
     position:absolute;
     overflow-y:auto;
     background-color:#333;
+    
 
 }
 
@@ -80,13 +136,53 @@ li{
 
 }
 
-img {    
+.logo {    
 min-width: 100%;
 min-height: 100%;
-width: auto;
-height: auto;
+width: 100;
+height: 400px;
 overflow-x:auto;
 }
 
+/*table code*/ 
 
-    
+.table{
+    width:100%;
+    height:800px;
+    table-layout:fixed;
+    overflow-y:auto;
+    position:absolute;
+}
+
+
+th{
+    font-size:30px;
+    font-family:italic;
+    font-style:times;
+    color:rgb(60, 179, 113);
+    border:1px;
+    border-color:rgb(60, 179, 113);
+}
+
+td{
+   border: 2px solid black;
+   padding:10px 10px 10px 20px;
+   background-color:#A9A9A9;
+   width:100px;
+   height:100px;
+   overflow:hidden; 
+   border-color:rgb(60, 179, 113);
+
+}
+
+ 
+img{
+    width:160px;
+    height:210px;
+    padding-top:none;
+
+}
+
+
+ 
+ 
